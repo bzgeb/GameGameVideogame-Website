@@ -50,6 +50,7 @@ a:active {
     #background-repeat: repeat-x;
     background-color: #000000;
     font-family: gillsans;
+    text-align: center;
 }
 div.MainBox {
     width:700;
@@ -61,6 +62,13 @@ div.MainBox {
     left:0px;
     color:white;
     background-image: url('transparentWhiteBG.png');
+}
+div.Footer {
+    width:700;
+    height: auto;
+    margin: 0px auto;
+    color: white;
+    text-align:center;
 }
 img.title
 {
