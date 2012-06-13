@@ -1,0 +1,95 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body
+{ 
+    background-color: #000000;
+    //  background-image: url('bg5.png');
+    background-repeat: repeat-xy;
+    font-family: gillsans;
+
+}
+body {
+    margin:0px 0px; padding:0px; /* Need to set body margin and padding to get consistency between browsers. */
+    text-align:center; /* Hack for IE5/Win */
+}
+h1, h2, h3, h4{
+    font-family:     sans-serif;
+}
+a:link { 
+    color: #FFFFFF;
+}
+a:visited { 
+    color: #FFBB00;
+    text-decoration: none;
+}
+a:active { 
+    color: #FFBB00;
+}
+
+#Content {
+    width:750px;
+    height:auto;
+    margin:0px auto;
+    text-align:left; /* Counteract to IE5/Win Hack */
+    padding:15px;
+    /*  border:5px dashed rgb(0,0,0); */
+    #background-image: url('bg1.png');
+    #background-repeat: repeat-x;
+    background-color: #000000;
+    font-family: gillsans;
+}
+#TitleBox {
+    width:750px;
+    height:auto;
+    margin:0px auto;
+    text-align:left; /* Counteract to IE5/Win Hack */
+    padding:15px;
+    /*  border:5px dashed rgb(0,0,0); */
+    #background-image: url('bg.png');
+    #background-repeat: repeat-x;
+    background-color: #000000;
+    font-family: gillsans;
+}
+div.MainBox {
+    width:700;
+    height:auto;
+    margin:0px auto;
+    position:relative;
+    padding:15px;
+    top:0px;
+    left:0px;
+    color:white;
+    background-image: url('transparentWhiteBG.png');
+}
+img.title
+{
+    position:relative;
+}
+img.mainScreenshot
+{
+    position:relative;
+    top:75px;
+    left:40px;
+}
+img.download
+{
+    position:relative;
+    top:-89px;
+    left:200px;
+}
+span.download
+{
+    position:relative;
+    top:-180px;
+    left:-50px;
+    color:white;
+}
+#screenshots
+{
+    /*  margin:0px auto;*/
+    width:230px;
+    float: right;
+    padding-top:0px;
+    /*  border: solid 1px black; */
+}
